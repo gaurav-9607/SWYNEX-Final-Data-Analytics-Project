@@ -1,0 +1,87 @@
+SWYNEX FINAL DATA ANALYTICS PROJECT
+
+Project Title:
+Adult Census Income Analysis
+
+1. PROJECT OVERVIEW
+
+This project is part of Task 4 of my Data Analyst Internship with SWYNEX Technologies.
+
+The objective of this project is to analyze the UCI Adult Census Income Dataset, understand the factors related to income levels, perform data analysis, and present useful findings through an interactive Power BI dashboard.
+
+2. PROBLEM STATEMENT
+
+The main objective is to explore demographic and employment-related information and understand how factors such as age, education, occupation, working hours, and marital status relate to income levels.
+
+3. DATASET INFORMATION
+
+Dataset Name: UCI Adult Census Income Dataset
+Dataset Source: UCI Machine Learning Repository
+Dataset Type: Public Dataset
+
+The dataset contains demographic and employment-related information, including age, workclass, education, occupation, marital status, gender, working hours, and income category.
+
+The dataset is used to explore the relationship between personal and employment characteristics and income levels.
+
+4. DATA CLEANING PROCESS
+
+The UCI Adult Census Income dataset was cleaned using Microsoft Excel.
+
+The data cleaning process included:
+- Identifying missing values represented by question marks (?).
+- Replacing missing value placeholders with Unknown.
+- Identifying and removing duplicate records.
+- Removing 24 duplicate records, leaving 32,537 unique records.
+- Checking the dataset for data quality issues.
+
+The cleaned dataset is saved as:
+SWYNEX_Adult_Dataset_Cleaned.xlsx
+
+5. EXPLORATORY DATA ANALYSIS (EDA)
+
+Exploratory Data Analysis was performed as part of Task 2 using Python and Jupyter Notebook.
+
+The analysis focused on understanding the dataset and examining demographic and employment-related variables, including age, education, occupation, working hours, and income.
+
+Analysis notebook:
+Task2_EDA.ipynb
+
+6. INTERACTIVE POWER BI DASHBOARD
+
+An interactive dashboard was created in Microsoft Power BI Desktop as part of Task 3.
+
+Dashboard features include:
+- Total Records KPI
+- Income Distribution
+- Average Age KPI
+- Interactive Age Range Filter
+- Gender Filter
+
+The dashboard helps users explore income-related patterns and compare different groups interactively.
+
+Dashboard file:
+SWYNEX_Interactive_Dashboard.pbix
+
+7. KEY BUSINESS INSIGHTS
+
+The dataset and dashboard can be used to examine:
+- How income categories are distributed across records.
+- How income varies across demographic groups.
+- How age and employment-related characteristics can be explored using interactive filters.
+
+Specific numerical findings should be taken from the completed EDA notebook and Power BI dashboard rather than assumed.
+
+8. PROJECT FILES
+
+1. SWYNEX_Adult_Dataset_Cleaned.xlsx
+2. Task2_EDA.ipynb
+3. SWYNEX_Interactive_Dashboard.pbix
+4. Final_Project_Report.txt
+
+9. CONCLUSION
+
+This final project combines data cleaning, exploratory data analysis, and interactive dashboard development using the UCI Adult Census Income dataset.
+
+The project demonstrates the use of Microsoft Excel, Python, Jupyter Notebook, and Power BI to prepare, explore, and visualize data.
+
+Completed as part of Task 4 - Final Data Analytics Project for SWYNEX Technologies.
